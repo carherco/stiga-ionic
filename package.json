@@ -34,6 +34,7 @@
         "cordova-plugin-compat": "^1.2.0",
         "cordova-plugin-device": "^2.0.2",
         "cordova-plugin-flashlight": "^3.2.0",
+        "cordova-plugin-ionic": "^4.1.7",
         "cordova-plugin-ionic-keyboard": "^2.0.5",
         "cordova-plugin-ionic-webview": "^1.1.19",
         "cordova-plugin-splashscreen": "^5.0.2",
@@ -57,7 +58,15 @@
             "cordova-plugin-splashscreen": {},
             "cordova-plugin-whitelist": {},
             "cordova-plugin-flashlight": {},
-            "cordova-plugin-camera": {}
+            "cordova-plugin-camera": {},
+            "cordova-plugin-ionic": {
+                "APP_ID": "1ecdb90e",
+                "CHANNEL_NAME": "Master",
+                "UPDATE_METHOD": "auto",
+                "WARN_DEBUG": "true",
+                "UPDATE_API": "https://api.ionicjs.com",
+                "MAX_STORE": "2"
+            }
         },
         "platforms": [
             "android"
