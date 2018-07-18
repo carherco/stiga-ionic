@@ -8,7 +8,7 @@ import { FirstRunPage } from '../pages';
 import { Settings } from '../providers';
 
 @Component({
-  template: `<ion-menu [content]="content">
+  template: `   <ion-menu [content]="content" >
     <ion-header>
       <ion-toolbar>
         <ion-title>Pages</ion-title>
@@ -42,6 +42,7 @@ export class MyApp {
     { title: 'Master Detail', component: 'ListMasterPage' },
     { title: 'Menu', component: 'MenuPage' },
     { title: 'Settings', component: 'SettingsPage' },
+    { title: 'Pagina1', component: 'Pagina1Page' },
     { title: 'Search', component: 'SearchPage' }
   ]
 

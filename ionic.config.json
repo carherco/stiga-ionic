@@ -1,6 +1,6 @@
 {
   "name": "stiga",
-  "app_id": "",
+  "app_id": "1ecdb90e",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
